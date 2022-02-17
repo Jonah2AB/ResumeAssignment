@@ -68,13 +68,14 @@ p{
     font-size: 0px;
     font-style: bold;
 }
-.image_project{
-height: 300px;
-width: 500px;
-border-radius: 10px;
-height: auto;
-max-width: 100%;
+ .image_project{
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+    height: auto;
+    max-width: 100%;
 }
+
 .heading-center{
     grid-column: span 5;
     height: 100%;
@@ -87,20 +88,88 @@ max-width: 100%;
      
 }
 
-a.b_button {
+
+/*Drop down Code*/
+.dropbtn {
+    color: white;
+    padding: 10px;
+    font-size: 12px;
     background-color: rgb(16, 119, 145);
     text-decoration: none;
-    color: white;
-    border-radius: .25rem;
-    transition: all .3s;
-    padding: 20px 20px 20px 20px; ;
-    margin-inline-start: auto;
-    outline-color: #000 ;
-    outline-style: solid;
-    display: inline-block;
-    margin-bottom: 2%;
+      
 }
-.main-content{
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    width: 1.25em;
+    height: 0.8em;
+    margin-right: 0.3em;
+   
+}
+
+.dropdown-content {
+    position: absolute;
+    background-color: lightgrey;
+    min-width: 200px;
+    display: none;
+    z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    background-color: orange;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: grey;
+}
+
+/*End DropDown Code*/
+
+/*Floating Top Button */
+
+#topButton {
+    position: fixed;
+    bottom: 10px;
+    float: right;
+    right: 18.5%;
+    left: 77.25%;
+    max-width: 30px;
+    width: 100%;
+    font-size: 12px;
+    border-color: rgba(85, 85, 85, 0.2);
+    background-color: rgb(100,100,100);
+    padding: .5px;
+    border-radius: 4px;
+
+}
+/*On Hover Color Change*/
+#myBtn:hover {
+    background-color: #7dbbf1;
+}
+
+/*End Top Button */
+
+
+.box {
+    width: 120px;
+    height: 30px;
+    border: 1px solid #999;
+    font-size: 18px;
+    color: #1c87c9;
+    background-color: #eee;
+    border-radius: 5px;
+    box-shadow: 4px 4px #ccc;
+  }
+
+ .main-content{
     min-height: 100vh;
     width: 80%;
     margin: 2rem auto;
