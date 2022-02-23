@@ -27,8 +27,14 @@
 
         </article>
         <div class="profile">
-        <div class="image">  
-          <img src="images/jonah_avatar.jpg" alt="jonah_avatar">
+        <div class="image"> 
+          <picture>
+            <source media="(max-width: 450px)" srcset="images/jonah_avatar_waketech.jpg">
+            <source media="(max-width: 750px)" srcset="images/jonah_avatar_waketech450.jpg">
+            <source media="(max-width: 1000px)" srcset="images/jonah_avatar_waketech1000.jpg">
+            <source srcset="images/jonah_avatar_waketech.jpg">
+            <img src="jonah_avatar_waketech.jpg" alt="jonah_avatar">
+          </picture>  
         </div>
         <div>
           <h1>Jonah Abenhaim</h1>
