@@ -93,6 +93,7 @@ p{
 .dropbtn {
     color: white;
     padding: 10px;
+    display: inline-block;
     font-size: 12px;
     background-color: rgb(16, 119, 145);
     text-decoration: none;
@@ -138,18 +139,38 @@ p{
 #topButton {
     position: fixed;
     bottom: 10px;
-    float: right;
-    right: 18.5%;
-    left: 77.25%;
-    max-width: 30px;
-    width: 100%;
-    font-size: 12px;
-    border-color: rgba(85, 85, 85, 0.2);
+    float: center;
+    left: 50%;
+    max-width: 180px;
+    width: 50%;
+    font-size: 25px;
+    border-color: rgb(0, 0, 0);
     background-color: rgb(100,100,100);
     padding: .5px;
     border-radius: 4px;
 
 }
+
+/*fortopButton*/
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+
+/*fortopButton*/
+
 /*On Hover Color Change*/
 #myBtn:hover {
     background-color: #7dbbf1;
