@@ -34,11 +34,13 @@ section{
     break-after: auto;
 }
 
+/*
 .image{
-    /*height: 300px;
-    width: 300px; */
-    
+    height: 300px;
+    width: 300px; 
 }
+*/
+    
 
 h1{
     text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 3px 3px 0 #000;
